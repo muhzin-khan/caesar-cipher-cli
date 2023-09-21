@@ -9,7 +9,7 @@ This Python script implements a Caesar cipher, a basic encryption technique. The
 2. Clone the repository to your local machine.
 
    ```bash
-   git clone https://github.com/openapi4/Caesar-Cipher-in-CLI.git
+   git clone https://github.com/muhzinkhan/caesar-cipher-cli.git
    ```
    or download the code directly to your system from GitHub.
 
@@ -17,12 +17,12 @@ This Python script implements a Caesar cipher, a basic encryption technique. The
 3. Navigate to the project directory.
 
    ```bash
-   cd caesar-cipher
+   cd caesar-cipher-cli
    ```
 4. Run the script using Python.
    
    ```bash
-   python caesar_cipher.py
+   python caesar-cipher.py
    ```
    The script will prompt you to enter the text you want to encrypt and the shift value.
 
@@ -30,10 +30,14 @@ This Python script implements a Caesar cipher, a basic encryption technique. The
 
 **Example**
    ```bash
-   Enter the text to encrypt: Hello World!
-   Enter the shift value: 3
-   Encrypted text: Khoor Zruog!
-   Decrypted text: Hello World!
+   Type 'encode' to encrypt, type 'decode' to decrypt:
+   encode
+   Type your message:
+   Hello World!
+   Type the key (shift number):
+   3
+   Here is the encoded result: khoor zruog!
+   With key = 3
    ```
 
 ## Contributing
